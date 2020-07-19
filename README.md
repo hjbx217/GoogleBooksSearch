@@ -6,6 +6,7 @@ A React-based Google Books Search app. This assignment is a React components, wo
 
 
 
+
 * This application requires at minimum 2 pages, check out the following mockup images for each page:
 
   * [Search](Search.png) - User can search for books via the Google Books API and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.
@@ -42,6 +43,7 @@ A React-based Google Books Search app. This assignment is a React components, wo
     }
     ```
 
+
 5. Create a layout similar to the mockups displayed above. This should be a SPA (Single Page Application) that uses [`react-router-dom`](https://github.com/reactjs/react-router) to navigate, hide and show your React components without changing the route within Express.
 
 * The layout should include at least two React Components for each page `Search` and `Saved`.
@@ -57,5 +59,6 @@ A React-based Google Books Search app. This assignment is a React components, wo
 * `/api/books/:id` (delete) - Will be used to delete a book from the database by Mongo `_id`.
 
 * `*` (get) - Will load your single HTML page in `client/build/index.html`. Make sure you have this _after_ all other routes are defined.
+
 
 
